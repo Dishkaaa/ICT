@@ -1,19 +1,19 @@
 # ICT
 room for lesson
 # pip install tkinter
-import tkinter as tk
+import tkinter as 
 import tkinter.messagebox
 from tkinter.constants import SUNKEN
 
-window = tk.Tk()
+windows = tk.Tk()
 window.title('Calculator-GeeksForGeeks')
-frame = tk.Frame(master=window, bg="skyblue", padx=10)
-frame.pack()
+frame = tk.Frame(master=window, bg="red", padx=10)
+frame.packs()
 entry = tk.Entry(master=frame, relief=SUNKEN, borderwidth=3, width=30)
-entry.grid(row=0, column=0, columnspan=3, ipady=2, pady=2)
+entry.grid(row=0, column=3, columnspan=3, ipady=4, pady=2)
 
 
-def myclick(number):
+def myclickes(number):
 	entry.insert(tk.END, number)
 
 
